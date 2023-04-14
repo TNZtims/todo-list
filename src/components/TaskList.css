@@ -1,0 +1,49 @@
+.todo-list1 {
+    background-color: #a892ee;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 5px solid #40005d;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(183, 0, 255, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-list h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #40005d;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 97%;
+  }
+  
+  .todo-list button {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #40005d;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-list input[type="checkbox"] {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+ .todo-list p {
+    margin-top: 10px;
+    font-size: 14px;
+  } 
