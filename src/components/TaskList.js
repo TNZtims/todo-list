@@ -15,6 +15,15 @@ function TaskList({ tasks, onCompleteTask, onDeleteTasks })
         onDeleteTasks();
     };
 
+    let count = 0;
+    for( let i=0 ; i<tasks.length ; i++)
+    {
+        if(tasks[i].completed === false)
+        {
+            count++;
+        }
+    }
+
     return(
         <div className='todo-list1'>
             {tasks.map((task, index) => 
@@ -26,6 +35,7 @@ function TaskList({ tasks, onCompleteTask, onDeleteTasks })
                     onComplete={() => handleCompleteClick(index)}
                 />
             ))}
+            <div>{count+ ' Item/s Left'}</div>
             <button onClick={handleDeleteClick}>Clear Completed</button>
         </div>
     );

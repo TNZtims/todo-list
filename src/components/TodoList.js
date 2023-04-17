@@ -13,7 +13,7 @@ function TodoList()
     {
         setTasks([...tasks, task]);
     };
-
+    
     const handleCompleteTask = (index) => 
     {
         const newTasks = [...tasks];
@@ -32,10 +32,22 @@ function TodoList()
         setFilter(filter);
     };
 
-    const filteredTasks = filter === 'all'  
-    ? tasks : filter === 'active'
-    ? tasks.filter((task) => !task.completed)
-    : tasks.filter((task) => task.completed);
+
+    let filteredTasks;
+
+    if (filter === 'all') 
+    {
+        filteredTasks = tasks;
+    } 
+    else if (filter === 'active') 
+    {
+        filteredTasks = tasks.filter(task => !task.completed);
+    } 
+    else 
+    {
+        filteredTasks = tasks.filter(task => task.completed);
+    }
+
 
     return(
         <div className='todo-list'>
