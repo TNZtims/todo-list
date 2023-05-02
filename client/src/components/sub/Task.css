@@ -1,0 +1,106 @@
+.tasks {
+    background-color: #9b81f3;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 2px;
+    padding: 0px;
+    border: 1px solid #40005d48;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(183, 0, 255, 0.3);
+    font-family: Arial, sans-serif;
+  }
+
+  .tasks2 {
+    background-color: #c2c2c246;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 2px;
+    padding: 0px;
+    border: 1px solid #40005d48;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.178);
+    font-family: Arial, sans-serif;
+  }
+
+  .tasks input[type="checkbox"] {
+    transform: scale(2);
+    margin-left: 20px;
+  }
+
+  .tasks2 input[type="checkbox"] {
+    transform: scale(2);
+    margin-left: 20px;
+  }
+
+  .btn-edit {
+    float: right;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #be00009a;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-save {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    /* margin-left: 11px; */
+    padding: 3px;
+    font-size: 12px;
+    background-color: #0a7500;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-cancel {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 3px;
+    font-size: 12px;
+    background-color: #ec0000e0;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }  
+
+  .btn-delete {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 3px;
+    font-size: 12px;
+    background-color: #666666e0;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }  
+
+  .btn-delete2 {
+    float: right;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #ec0000c7;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }  
+
+  .editForm {
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 8px;
+  }
+
+  .checkBox {
+    cursor: pointer;
+  }
